@@ -1,0 +1,81 @@
+ 📊 Diwali Sales Data Analysis — Project Summary
+
+📁 Dataset Overview
+
+* **Dataset**: `Diwali Sales Data.csv`
+* **Total Records**: 11,251
+* **Final Records after Cleaning**: 11,239
+* **Features (Columns)**: 13 (after removing 2 irrelevant ones: `Status`, `unnamed1`)
+* **Missing Data**: Dropped 12 rows with missing `Amount` values.
+
+---
+
+### 🧹 Data Cleaning Summary
+
+* Removed irrelevant columns (`Status`, `unnamed1`).
+* Used `unicode_escape` for encoding to handle special characters.
+* Ensured all important columns are complete before visualization.
+
+---
+
+### 🔍 Key Exploratory Data Analysis (EDA) Insights
+
+#### 1. 🧑‍🤝‍🧑 Gender-based Analysis
+
+* **Female Customers** spent **₹74.3M**, significantly higher than **Male Customers** who spent **₹31.9M**.
+* Visualized via a bar chart showing the gender-wise customer count and total sales.
+
+#### 2. 🎂 Age Group Distribution
+
+* Highest participation from the **26–35** and **36–45** age groups.
+* These age groups are also the primary spenders.
+* Clear indication that the marketing strategy should target these demographics.
+
+#### 3. 📍 Top Performing States (by Orders)
+
+* Top 10 states by total number of orders were visualized.
+* Useful for identifying high-value regional markets for targeted festive campaigns.
+
+#### 4. 👨‍💼 Occupation-based Spending
+
+* Occupations with highest spending:
+
+  * **Healthcare**
+  * **Government Employees**
+  * **Automobile Sector**
+* Provides clarity on which professional groups are more engaged during festive sales.
+
+#### 5. 🛍️ Product Category Analysis
+
+* Top spending categories:
+
+  * **Auto**
+  * **Mobile**
+  * **Fashion**
+* Key insight: promotional discounts in these categories can yield maximum returns during Diwali season.
+
+#### 6. 💍 Marital Status vs Gender
+
+* Married women had the **highest average spending** among all groups.
+* Indicates that married females are a prime customer segment for festive shopping.
+
+---
+
+### 📈 Technical Stack
+
+* **Python Libraries**:
+
+  * `Pandas`: Data manipulation
+  * `NumPy`: Numerical calculations
+  * `Matplotlib`, `Seaborn`: Visualizations
+* **Encoding**: Used `unicode_escape` for CSV file
+
+---
+
+### 📌 Business Recommendations
+
+* **Targeted Marketing** for Females (especially married) aged 26–45.
+* Run state-wise promotions in top-performing regions like Maharashtra, Andhra Pradesh, and Uttar Pradesh.
+* Promote high-performing categories like Auto and Mobile during the festive period.
+* Partner with healthcare and government institutions for employee-focused offers.
+
